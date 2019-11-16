@@ -30,7 +30,6 @@ class SinglyLinkedList:
         self.head = self.head.next
         return v
 
-
 list = SinglyLinkedList()
 list.insert_head(5)
 list.insert_head(10)
