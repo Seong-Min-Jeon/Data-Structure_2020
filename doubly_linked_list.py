@@ -131,6 +131,7 @@ class LinkedList:
             print(node.value, end="->")
         print()
         """
+        #이해를 못해서 singly linked list와 비슷하게 만들었습니다.
         if(dir == 1):
             p = self.head
             print("FORWARD: ",end="")
