@@ -3,7 +3,7 @@ class CircularQueue:
         #최대 크기, queue 생성, 필요한 포인터 초기화
         self.max_size = max_size
         self.front = 0
-        self.rear = 0 #하나 들어오면 rear값이 1씩 늘어남. 하나 나가면 front값이 1씩 늘어남
+        self.rear = 0
         self.queue = [None] * max_size 
 
     def enqueue(self, data):
