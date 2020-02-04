@@ -122,16 +122,6 @@ class LinkedList:
             return p3
 
     def print(self, dir = 1):
-        """
-        print("FORWARD: " if dir==1 else "BACKWARD:", end = "")
-        if(self.size == 0):
-            print()
-            return
-        for node in self.traverse(dir):
-            print(node.value, end="->")
-        print()
-        """
-        #이해를 못해서 singly linked list와 비슷하게 만들었습니다.
         if(dir == 1):
             p = self.head
             print("FORWARD: ",end="")
